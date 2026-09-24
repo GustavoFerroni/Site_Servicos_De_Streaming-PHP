@@ -23,5 +23,7 @@ CSS <br>
 <br>
 <br>
 <img width="1919" height="941" alt="Captura de tela 2026-09-24 170407" src="https://github.com/user-attachments/assets/f45a232f-25b0-4e60-a8cf-9d53d2fbe619" />
+<br>
+<img width="1909" height="944" alt="Captura de tela 2026-09-24 170417" src="https://github.com/user-attachments/assets/c733f84b-6c52-4947-8ad6-f20b8ac91be5" />
 
 
