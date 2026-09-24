@@ -18,3 +18,10 @@ MySQL <br>
 Bootstrap 5.3 e Bootstrap Icons <br> 
 JavaScript <br> 
 CSS <br> 
+<br>
+<br>
+<br>
+<br>
+<img width="1919" height="941" alt="Captura de tela 2026-09-24 170407" src="https://github.com/user-attachments/assets/f45a232f-25b0-4e60-a8cf-9d53d2fbe619" />
+
+
