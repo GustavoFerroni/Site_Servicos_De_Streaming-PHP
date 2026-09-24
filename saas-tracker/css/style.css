@@ -1,0 +1,313 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f5f7fb;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f2937;
+}
+
+
+/* SIDEBAR */
+
+.sidebar {
+    min-height: 100vh;
+    background: #111827;
+    padding: 25px 18px;
+    color: white;
+}
+
+
+.logo {
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    padding: 0 10px;
+}
+
+
+.logo i {
+    margin-right: 8px;
+    color: #60a5fa;
+}
+
+
+.menu-item {
+    display: block;
+    padding: 13px 15px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    color: #cbd5e1;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+
+.menu-item i {
+    margin-right: 10px;
+}
+
+
+.menu-item:hover,
+.menu-item.active {
+    background: #2563eb;
+    color: white;
+}
+
+
+/* CONTEÚDO */
+
+.content {
+    padding: 35px;
+}
+
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.topbar h1 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.topbar p {
+    color: #6b7280;
+    margin-top: 7px;
+}
+
+
+/* CARDS */
+
+.dashboard-card {
+    background: white;
+    border-radius: 14px;
+    padding: 22px;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.04);
+}
+
+
+.dashboard-card span {
+    color: #6b7280;
+    font-size: 14px;
+}
+
+
+.dashboard-card h3 {
+    margin: 5px 0 0;
+    font-size: 25px;
+}
+
+
+.card-icon {
+    width: 52px;
+    height: 52px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+
+.card-icon.blue {
+    background: #dbeafe;
+    color: #2563eb;
+}
+
+
+.card-icon.green {
+    background: #dcfce7;
+    color: #16a34a;
+}
+
+
+.card-icon.red {
+    background: #fee2e2;
+    color: #dc2626;
+}
+
+
+/* ANUAL */
+
+.annual-card {
+    background: linear-gradient(
+        135deg,
+        #2563eb,
+        #1d4ed8
+    );
+
+    color: white;
+
+    border-radius: 14px;
+
+    padding: 28px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+
+.annual-card span {
+    opacity: .8;
+}
+
+
+.annual-card h2 {
+    margin: 7px 0;
+}
+
+
+.annual-card p {
+    margin: 0;
+    opacity: .8;
+}
+
+
+.annual-card i {
+    font-size: 55px;
+    opacity: .3;
+}
+
+
+/* TABELA */
+
+.table-container {
+    background: white;
+    border-radius: 14px;
+    padding: 25px;
+    box-shadow: 0 3px 15px rgba(0,0,0,.04);
+}
+
+
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.table-header h4 {
+    margin: 0;
+}
+
+
+.table-header p {
+    margin: 5px 0 0;
+    color: #6b7280;
+}
+
+
+.search {
+    width: 220px;
+}
+
+
+.table th {
+    color: #6b7280;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+.table td {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+
+.category {
+    background: #eff6ff;
+    color: #2563eb;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+
+.status {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+
+.status.ativo {
+    color: #16a34a;
+}
+
+
+.status.cancelado {
+    color: #dc2626;
+}
+
+
+/* FORMULÁRIO */
+
+.form-container {
+    background: white;
+    padding: 30px;
+    border-radius: 14px;
+    box-shadow: 0 3px 15px rgba(0,0,0,.04);
+}
+
+
+.form-label {
+    font-weight: 600;
+}
+
+
+.form-control,
+.form-select {
+    padding: 11px;
+    border-radius: 8px;
+}
+
+
+/* RESPONSIVO */
+
+@media (max-width: 768px) {
+
+    .sidebar {
+        min-height: auto;
+    }
+
+
+    .content {
+        padding: 20px;
+    }
+
+
+    .topbar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+
+    .table-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+
+    .search {
+        width: 100%;
+    }
+
+}
